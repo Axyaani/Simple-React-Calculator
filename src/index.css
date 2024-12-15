@@ -1,0 +1,73 @@
+body{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+.cal{
+
+  text-align: center;
+  padding: 40px;
+  background-color: aqua;
+  width: 200px;
+  margin-left: 0%;
+  margin-top: 10%;
+  width: 350px;
+  height: 300px;
+box-shadow: 0px 0px 20px rgb(80, 80, 169);
+border-radius: 20px;
+}
+.cal input{
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+
+}
+.cal button{
+  padding: 8px 14px;
+  background-color: rgb(16, 205, 16);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+ 
+
+}
+.cal button:hover{
+  background-color: rgb(16, 195, 16);
+}
+.cal button:active{
+  background-color: rgb(16, 175, 16);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  transform: translateY(2px);
+
+}
+.cal p{
+  background-color: gray;
+  padding: 8px 20px;
+  border-radius: 10px;
+  color: white;
+  width: 80px;
+  text-align: center;
+  margin-left: 100px;
+}
+.cal .btn{
+  padding: 10px;
+  gap: 20px;
+  display: flex;
+}
+@media screen and (min-width: 768px){
+  .cal{
+   padding: 60px;
+  }
+  .cal input{
+    margin-right: 50px;
+   padding-right: 20px;
+  }
+}
